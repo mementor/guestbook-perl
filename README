@@ -1,0 +1,10 @@
+README
+
+For ubuntu:
+	$ sudo apt-get install libdbd-sqlite3-perl
+	$ sudo curl get.mojolicio.us | sh
+	clone repository (TBD)
+	cd to cloned dir
+	$ morbo ./guestbook.pl
+
+	point your webbrowser to http://127.0.0.1:3000

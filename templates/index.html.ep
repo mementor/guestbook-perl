@@ -1,0 +1,11 @@
+% foreach my $msg (@{$messages}) {
+	<p>User: <%= $msg->[0] %></p>
+	<p><%= $msg->[1] %></p>
+	<hr>
+
+% }
+<form action="/add" method="post">
+<input name="name">
+<input name="text">
+<input type="submit">
+</form>
